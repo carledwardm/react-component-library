@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
        <h1>Component Library for React/Next.js</h1>
+       
       </main>
     </div>
   );
