@@ -1,0 +1,105 @@
+.loginMain {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 25px;
+}
+
+.loginSection {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: 550px;
+    border: 1px solid var(--foreground);
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.loginTitle {
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0 0 3px var(--outline);
+    color: var(--outline);
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    max-width: 350px;
+    background-color: transparent;
+    border: 1px solid var(--foreground);
+    border-radius: 5px;
+    color: var(--foreground);
+    padding: 10px 15px;
+    transition: box-shadow 0.2s ease-in-out,
+                color 0.2s ease-in-out;
+
+    &:focus {
+        outline: 2px solid var(--outline);
+        border-color: transparent;
+        color: var(--outline);
+        box-shadow: 0 0 8px 4px var(--outline);
+        text-shadow: 0 0 1px var(--outline);
+
+        &::placeholder {
+            color: var(--outline);
+        }
+    }
+}
+
+.submitBtn {
+    background-color: var(--foreground);
+    color: var(--background);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    margin-top: 25px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--background);
+        color: var(--foreground);
+        border: 2px solid var(--foreground);
+    }
+
+    &:active {
+        background-color: var(--background);
+        border: 2px solid var(--outline);
+        box-shadow: 0 0 5px 2px var(--outline);
+        color: var(--outline);
+    }
+}
+
+.signupText {
+    font-size: 18px;
+}
+
+.signupLink {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--outline);
+    transition: all 0.2s ease-in-out;
+    
+    &:hover {
+        transform: translateY(-3px);
+        color: white;
+    }
+}
