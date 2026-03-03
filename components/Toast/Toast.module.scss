@@ -3,15 +3,16 @@
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    position: fixed;
+    // position: fixed
+    // Set position to fixed and adjust to your liking 
     bottom: 250px;
-    background-color: var(--sub-background);
+    background-color: transparent;
     color: white;
-    font-family: var(--font-roboto), sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
     z-index: 1000;
-    border: 4px solid var(--alt-foreground);
+    border: 4px solid white;
     border-radius: 2px;
     animation: toastAnimation 0.5s forwards;
 }
