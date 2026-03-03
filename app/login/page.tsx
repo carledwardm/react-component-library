@@ -11,7 +11,8 @@ export default function LogIn() {
                 <Login />
                 <p className={styles.descriptionText}>A simple login component containing an email/password form linked
                     to a handler function sans-logic. Copy code, add as many fields to the form as you need and handle 
-                    logic accordingly via the linked function. Form inputs are also controlled.
+                    logic accordingly via the linked function. Form inputs are also controlled and the component has been 
+                    styled to have a slight glow around text/inputs, feel free to remove.
                 </p>
             </div>
         </main>
