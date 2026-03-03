@@ -8,6 +8,23 @@
     gap: 50px;
 }
 
+.componentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding: 25px;
+    gap: 50px;
+}
+
 .homeLink {
     font-size: 24px;
+}
+
+.descriptionText {
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }

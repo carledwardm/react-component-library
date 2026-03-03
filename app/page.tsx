@@ -11,6 +11,7 @@ export default function Home() {
         <ul className={styles.componentList}>
           <li className={styles.componentLink}><Link href="/login">Log In Component</ Link></li>
           <li className={styles.componentLink}><Link href="/signup">Sign Up Component</ Link></li>
+          <li className={styles.componentLink}><Link href="/toast">Toast Component</ Link></li>
         </ul>
       </main>
     </div>
