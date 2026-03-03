@@ -140,3 +140,18 @@ a.secondary {
     --button-secondary-border: #1a1a1a;
   }
 }
+
+.componentList {
+  list-style-type: none;
+}
+
+.componentLink {
+  color: white;
+  margin-bottom: 10px;
+  transition: color 0.1s ease-in-out;
+}
+
+.componentLink:hover {
+  color: rgb(156, 156, 156);
+  text-decoration: none;
+}

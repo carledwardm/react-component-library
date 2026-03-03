@@ -10,6 +10,11 @@
 
 .homeLink {
     font-size: 24px;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
 }
 
 .componentContainer {
