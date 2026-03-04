@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>Component Library for React/Next.js</h1>
-        <h2 className={styles.componentListTitle}>Component List</h2>
+        <h2 className={styles.componentListTitle}>Available Components</h2>
         <ul className={styles.componentList}>
           <li className={styles.componentLink}><Link href="/login">Log In Component</ Link></li>
           <li className={styles.componentLink}><Link href="/signup">Sign Up Component</ Link></li>
