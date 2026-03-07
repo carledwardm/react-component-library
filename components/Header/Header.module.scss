@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: space-between;
     border: 2px solid white;
+    // Border present for test rendering purposes - feel free to remove
     padding: 10px 25px;
+    width: 100%;
 }
 
 .logoContainer {
@@ -30,4 +32,13 @@
     font-size: 18px;
     text-decoration: none;
     color: white;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: rgb(150, 150, 150);
+    }
+}
+
+.headerLink:nth-child(1) {
+    font-weight: bold;
 }

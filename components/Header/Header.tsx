@@ -4,7 +4,7 @@ import Styles from "./Header.module.scss";
 import Logo from "../../stories/assets/demo_logo.png";
 // use your own logo image/path
 
-export default function Header() {
+export default function HeaderComponent() {
     return (
         <header className={Styles.header}>
             <div className={Styles.logoContainer}>
