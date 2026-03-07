@@ -159,6 +159,12 @@ a.secondary {
   list-style-type: none;
 }
 
+.componentChev {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
 .componentLink {
   color: white;
   margin-bottom: 10px;
