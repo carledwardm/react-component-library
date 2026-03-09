@@ -1,0 +1,40 @@
+.footerMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+}
+
+.homeLink {
+    font-size: 24px;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
+}
+
+.componentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding: 25px;
+    gap: 50px;
+}
+
+.descriptionText {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.routeName {
+    font-size: 24px;
+    color: white;
+}
