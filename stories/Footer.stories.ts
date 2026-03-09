@@ -2,15 +2,15 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { fn } from 'storybook/test';
 
-import Signup from '@/components/Signup/Signup';
+import Footer from '@/components/Footer/Footer';
 
 const meta = {
-    title: 'Signup',
-    component: Signup,
+    title: 'Footer',
+    component: Footer,
     parameters: {
         layout: 'padded',
     }
-} satisfies Meta<typeof Signup>
+} satisfies Meta<typeof Footer>
 
 export default meta;
 
