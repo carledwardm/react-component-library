@@ -18,6 +18,12 @@ export default function Header() {
                     holds 4 links in its nav container. This component will be updated in the near future to have
                     mobile toggle button.
                 </p>
+                
+                <Link 
+                    className={styles.repoLink} 
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Login">
+                        <FaChevronRight className={styles.repoChev}/> Repo Link
+                </ Link>
             </div>
         </main>
     )
