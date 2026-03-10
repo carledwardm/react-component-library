@@ -21,7 +21,8 @@ export default function Header() {
                 
                 <Link 
                     className={styles.repoLink} 
-                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Login">
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Login"
+                    target="_blank">
                         <FaChevronRight className={styles.repoChev}/> Repo Link
                 </ Link>
             </div>

@@ -19,9 +19,10 @@ export default function Footer() {
                 </p>
                 <Link 
                     className={styles.repoLink} 
-                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Footer">
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Footer"
+                    target="_blank">
                         <FaChevronRight className={styles.repoChev}/> Repo Link
-                </ Link>
+                </Link>
             </div>
         </main>
     )
