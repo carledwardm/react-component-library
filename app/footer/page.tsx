@@ -17,6 +17,11 @@ export default function Footer() {
                 <p className={styles.descriptionText}>A footer component currently displaying a demo logo, 3 default
                     links and a copyright with a dynamix year added.
                 </p>
+                <Link 
+                    className={styles.repoLink} 
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Footer">
+                        <FaChevronRight className={styles.repoChev}/> Repo Link
+                </ Link>
             </div>
         </main>
     )
