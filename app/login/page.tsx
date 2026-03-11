@@ -19,6 +19,12 @@ export default function LogIn() {
                     logic accordingly via the linked function. Form inputs are also controlled and the component has been 
                     styled to have a slight glow around text/inputs, feel free to remove.
                 </p>
+                <Link 
+                    className={styles.repoLink} 
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Login"
+                    target="_blank">
+                        <FaChevronRight className={styles.repoChev}/> Repo Link
+                </ Link>
             </div>
         </main>
     )
