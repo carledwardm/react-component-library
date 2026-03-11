@@ -24,6 +24,12 @@ export default function SignUp() {
                     a closing function. The fixed position parameter has been commented out for this demo, uncomment and
                     adjust to your liking.
                 </p>
+                <Link 
+                    className={styles.repoLink} 
+                    href="https://github.com/carledwardm/react-component-library/tree/main/components/Toast"
+                    target="_blank">
+                        <FaChevronRight className={styles.repoChev}/> Repo Link
+                </ Link>
             </div>
         </main>
     )
