@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     gap: 50px;
+    padding: 25px;
 }
 
 .componentContainer {
@@ -32,11 +33,30 @@
 
 .descriptionText {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
 }
 
 .routeName {
     font-size: 24px;
     color: white;
+}
+
+.repoLink {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
+}
+
+.repoChev {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
 }

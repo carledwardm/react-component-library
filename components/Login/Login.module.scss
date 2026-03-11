@@ -1,12 +1,3 @@
-.loginMain {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    padding: 50px 25px;
-}
-
 .loginSection {
     padding: 25px;
     display: flex;
@@ -14,8 +5,8 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    max-width: 500px;
-    height: 550px;
+    max-width: 425px;
+    height: 450px;
     border: 1px solid white;
     border-radius: 5px;
     gap: 50px;
@@ -23,7 +14,7 @@
 
 .loginTitle {
     font-family: sans-serif;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
     color: white;
 }
@@ -39,12 +30,12 @@
 
 .input {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 15px;
     transition: box-shadow 0.2s ease-in-out,
                 color 0.2s ease-in-out;
 
@@ -61,10 +52,10 @@
 .submitBtn {
     background-color: white;
     color: var(--background);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 10px 15px;
-    width: 200px;
+    padding: 5px 10px;
+    width: 125px;
     border-radius: 5px;
     border: 2px solid transparent;
     transition: all 0.2s ease-in-out;
@@ -85,7 +76,7 @@
 }
 
 .loginText {
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     font-family: sans-serif;
 }
