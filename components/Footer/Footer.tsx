@@ -23,7 +23,7 @@ export default function Footer() {
             </nav>
         </div>
         <div className={styles.footerBottomRow}>
-            <p className={styles.footerCopyright}>© Copyright Carl Millard {new Date().getFullYear()}. All rights reserved.
+            <p className={styles.footerCopyright}>© Copyright YOUR NAME HERE {new Date().getFullYear()}. All rights reserved.
             </p>
         </div>
         </footer>
