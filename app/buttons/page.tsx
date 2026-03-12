@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from "./Buttons.module.scss";
 import LoadMore from "@/components/Buttons/LoadMore";
+import StandardButton from "@/components/Buttons/StandardButton";
 import { FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
 
@@ -17,6 +18,26 @@ export default function Header() {
             </nav>  
             <section className={styles.componentsSection}>
                 <h1 className={styles.pageTitle}>Button Components</h1>
+
+                <hr className={styles.divider} />
+
+                <div className={styles.componentContainer}>
+                    <h2 className={styles.componentTitle}>Standard Button</h2>
+                    <StandardButton />
+                    <p className={styles.descriptionText}>A standard button component. Accepts a text argument
+                        at this time.
+                    </p>
+                
+                    <Link 
+                        className={styles.repoLink} 
+                        href="https://github.com/carledwardm/react-component-library/tree/main/components/Buttons/StandardButton"
+                        target="_blank">
+                            <FaChevronRight className={styles.repoChev}/> Repo Link
+                    </ Link>
+                </div>
+
+                <hr className={styles.divider} />
+
                 <div className={styles.componentContainer}>
                     <h2 className={styles.componentTitle}>Load More Button</h2>
                     <LoadMore increaseFunction={setCount} increaseAmount={1} />
@@ -24,7 +45,7 @@ export default function Header() {
                         count and an increase amount. It will call your supplied function when clicked - this component is meant for 
                         conditional rendering of additional UI items originally hidden from view.
                     </p>
-                
+            
                     <Link 
                         className={styles.repoLink} 
                         href="https://github.com/carledwardm/react-component-library/tree/main/components/Buttons/LoadMore"
