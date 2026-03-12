@@ -1,0 +1,87 @@
+.headerMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.breadcrumbs {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+}
+
+.homeLink {
+    font-size: 18px;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
+}
+
+.pageTitle {
+    font-family: sans-serif;
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+}
+
+.componentsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    gap: 100px;
+}
+
+.componentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    gap: 50px;
+}
+
+.descriptionText {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+.routeName {
+    font-size: 18px;
+    color: white;
+}
+
+.repoLink {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
+}
+
+.repoChev, .breadcrumbsChev {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.componentTitle {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+}
