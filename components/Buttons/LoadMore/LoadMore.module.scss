@@ -1,0 +1,20 @@
+.loadMoreButton {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    gap: 10px;
+    margin-top: 25px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: transparent;
+    }
+}
