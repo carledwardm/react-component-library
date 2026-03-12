@@ -7,7 +7,12 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1 className={styles.libraryTitle}>Component Library for React/Next.js</h1>
+        <div className={styles.libraryTextContainer}>
+          <h1 className={styles.libraryTitle}>Component Library for React/Next.js</h1>
+          <p className={styles.libraryGreeting}>Hello! Welcome to my componeny library! Feel free to check out the available components and copy any code
+            you'd like to use from them via the repo links on each page. Check back in the future for updates!
+          </p>
+        </div>
         <nav className={styles.componentNav}>
           <h2 className={styles.componentListTitle}>Available Components</h2>
           <ul className={styles.componentList}>

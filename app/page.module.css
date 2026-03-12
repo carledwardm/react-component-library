@@ -141,10 +141,25 @@ a.secondary {
   }
 }
 
+.libraryTextContainer {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+}
+
 .libraryTitle {
   font-size: 38px;
   text-align: center;
   margin-bottom: 25px;
+}
+
+.libraryGreeting {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: left;
 }
 
 .componentNav {
