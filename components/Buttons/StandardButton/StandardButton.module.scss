@@ -1,0 +1,14 @@
+.button {
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    border: 2px solid transparent;
+    transform: all 0.2s ease-in-out;
+    
+    &:hover {
+        background-color: transparent;
+        border: 2px solid white;
+    }
+}
