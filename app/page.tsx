@@ -16,11 +16,12 @@ export default function Home() {
         <nav className={styles.componentNav}>
           <h2 className={styles.componentListTitle}>Available Components</h2>
           <ul className={styles.componentList}>
-            <li className={styles.componentLink}><Link href="/footer"><FaChevronRight className={styles.componentChev}/> Footer Component</ Link></li>
-            <li className={styles.componentLink}><Link href="/header"><FaChevronRight className={styles.componentChev}/> Header Component</ Link></li>
-            <li className={styles.componentLink}><Link href="/login"><FaChevronRight className={styles.componentChev}/> Log In Component</ Link></li>
-            <li className={styles.componentLink}><Link href="/signup"><FaChevronRight className={styles.componentChev}/> Sign Up Component</ Link></li>
-            <li className={styles.componentLink}><Link href="/toast"><FaChevronRight className={styles.componentChev}/> Toast Component</ Link></li>
+            <li className={styles.componentLink}><Link href="/buttons"><FaChevronRight className={styles.componentChev}/> Buttons</ Link></li>
+            <li className={styles.componentLink}><Link href="/footer"><FaChevronRight className={styles.componentChev}/> Footer </ Link></li>
+            <li className={styles.componentLink}><Link href="/header"><FaChevronRight className={styles.componentChev}/> Header </ Link></li>
+            <li className={styles.componentLink}><Link href="/login"><FaChevronRight className={styles.componentChev}/> Log In</ Link></li>
+            <li className={styles.componentLink}><Link href="/signup"><FaChevronRight className={styles.componentChev}/> Sign Up</ Link></li>
+            <li className={styles.componentLink}><Link href="/toast"><FaChevronRight className={styles.componentChev}/> Toast</ Link></li>
           </ul>
         </nav>
       </main>
