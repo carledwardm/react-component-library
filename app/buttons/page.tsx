@@ -17,10 +17,11 @@ export default function Header() {
                     <span className={styles.routeName}>Buttons</span>
             </nav>  
             <section className={styles.componentsSection}>
-                <h1 className={styles.pageTitle}>Button Components</h1>
 
+                <h1 className={styles.pageTitle}>Button Components</h1>
                 <hr className={styles.divider} />
 
+                {/* Standard Button Component */}
                 <div className={styles.componentContainer}>
                     <h2 className={styles.componentTitle}>Standard Button</h2>
                     <div className={styles.componentDisplay}>
@@ -40,10 +41,14 @@ export default function Header() {
 
                 <hr className={styles.divider} />
 
+                {/* Load More Button Component */}
                 <div className={styles.componentContainer}>
                     <h2 className={styles.componentTitle}>Load More Button</h2>
                     <div className={styles.componentDisplay}>
                         <LoadMore increaseFunction={setCount} increaseAmount={1} />
+                        <div className={styles.countDemo}>
+                            <p className={styles.count}>Click to increase: {count}</p>
+                        </div>
                     </div>
                     <p className={styles.descriptionText}>An incremental counter button designed to take a setter function for a numerical
                         count and an increase amount. It will call your supplied function when clicked - this component is meant for 
@@ -57,6 +62,7 @@ export default function Header() {
                             <FaChevronRight className={styles.repoChev}/> Repo Link
                     </ Link>
                 </div>
+
             </section>
         </main>
     )
