@@ -14,7 +14,7 @@ export default function LoadMore({ increaseFunction, increaseAmount=0}: loadMore
         <button 
             className={styles.loadMoreButton} 
             onClick={() => increaseFunction(prev => prev += increaseAmount)}>
-                Show More <FaChevronDown className={styles.chevron}/>
+                Load More <FaChevronDown className={styles.chevron}/>
         </button>
     )
 }
