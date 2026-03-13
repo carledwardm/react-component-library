@@ -54,6 +54,18 @@
     gap: 50px;
 }
 
+
+.componentDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 25px;
+    border-radius: 2px;
+    background-color: var(--component-display);
+    width: 100%;
+}
+
+
 .descriptionText {
     color: white;
     font-size: 16px;
