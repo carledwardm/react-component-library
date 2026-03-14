@@ -7,11 +7,11 @@
     background-color: var(--btn-background);
     border: 2px solid transparent;
     transform: background-color 0.2s ease-in-out;
-    border: 2px solid white;
+    border: 2px solid var(--btn-background);
     transition: 0.2s ease-in-out;
 
     &:hover {
         background-color: transparent;
-        color: var(--hover-foreground);
+        color: var(--btn-background);
     }
 }

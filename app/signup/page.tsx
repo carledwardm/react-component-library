@@ -13,7 +13,9 @@ export default function SignUp() {
                     <span className={styles.routeName}> Signup</span>
                 </nav>  
             <div className={styles.componentContainer}>
-                <Signup />
+                <div className={styles.componentDisplay}>
+                    <Signup />
+                </div>
                 <p className={styles.descriptionText}>A simple signup component containing an email/password form linked
                     to a handler function sans-logic. Copy code, add as many fields to the form as you need and handle 
                     logic accordingly via the linked function. Form inputs are also controlled and the component has been 

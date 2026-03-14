@@ -13,7 +13,9 @@ export default function Header() {
                     <span className={styles.routeName}> Login</span>
                 </nav>  
             <div className={styles.componentContainer}>
-                <HeaderComponent />
+                <div className={styles.componentDisplay}>
+                    <HeaderComponent />
+                </div>
                 <p className={styles.descriptionText}>A basic header component with a default demo logo. Currently
                     holds 4 links in its nav container. This component will be updated in the near future to have
                     mobile toggle button.

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid var(--foreground);
+    border: 2px solid var(--comp-foreground);
     // Border present for test rendering purposes - feel free to remove
     padding: 10px 25px;
     width: 100%;
@@ -31,7 +31,7 @@
     font-family: sans-serif;
     font-size: 18px;
     text-decoration: none;
-    color: var(--foreground);
+    color: var(--comp-foreground);
     transition: color 0.2s ease-in-out;
 
     &:hover {

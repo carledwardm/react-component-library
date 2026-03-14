@@ -18,7 +18,7 @@ export default function Login() {
                 <input type="password" className={styles.input} placeholder="Password" onChange={ e => setUserPassword(e.target.value)}></input>
                 <button type="submit" className={styles.submitBtn}>Submit</button>
             </form>
-            <p className={styles.loginText}>Need an account? <a href="/signup" className={styles.loginLink}>Sign up</a>!</p>
+            <p className={styles.signupText}>Need an account? <a href="/signup" className={styles.signupLink}>Sign up</a>!</p>
         </section>
     )
 }

@@ -23,12 +23,23 @@
 .homeLink {
     font-family: sans-serif;
     font-size: 24px;
-    color: white;
+    color: var(--foreground);
     transition: color 0.1s ease-in-out;
 
     &:hover {
-        color: rgb(156, 156, 156);
+        color: var(--hover-foreground);
     }
+}
+
+.componentDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 25px;
+    border-radius: 2px;
+    background-color: var(--component-display);
+    width: 100%;
 }
 
 .descriptionText {

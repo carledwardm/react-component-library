@@ -18,8 +18,10 @@ export default function SignUp() {
                     <Link href="/" className={styles.homeLink}>Home </ Link>
                     <FaChevronRight />
                     <span className={styles.routeName}> Toast</span>
-                </nav>                
-                <Toast message="Your toast message will go here" onClose={closeFunction} />
+                </nav>       
+                <div className={styles.componentDisplay}>       
+                    <Toast message="Your toast message will go here" onClose={closeFunction} />
+                </div>  
                 <p className={styles.descriptionText}>A component that's used to display feedback messages to your user. Accepts a message, duration and 
                     a closing function. The fixed position parameter has been commented out for this demo, uncomment and
                     adjust to your liking.
