@@ -10,6 +10,7 @@
     border: 1px solid var(--comp-foreground);
     border-radius: 5px;
     gap: 50px;
+    animation: fadeInUp 0.5s forwards;
 }
 
 .signupTitle {
@@ -90,5 +91,16 @@
     &:hover {
         transform: translateY(-3px);
         color: var(--hover-foreground);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

@@ -6,6 +6,7 @@
     // Border present for test rendering purposes - feel free to remove
     padding: 10px 25px;
     width: 100%;
+    animation: fadeInUp 0.5s forwards;
 }
 
 .logoContainer {
@@ -41,4 +42,15 @@
 
 .headerLink:nth-child(1) {
     font-weight: bold;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

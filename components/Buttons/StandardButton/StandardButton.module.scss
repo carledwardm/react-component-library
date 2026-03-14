@@ -9,9 +9,21 @@
     transform: background-color 0.2s ease-in-out;
     border: 2px solid var(--btn-background);
     transition: 0.2s ease-in-out;
+    animation: fadeInUp 0.5s forwards;
 
     &:hover {
         background-color: transparent;
         color: var(--btn-background);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
