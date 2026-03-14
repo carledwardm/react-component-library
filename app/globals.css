@@ -3,9 +3,11 @@
   --foreground: #171717;
   --btn-background: #ffffff;
   --btn-foreground: #171717;
+  --comp-background: #171717;
+  --comp-foreground: #ffffff;
   --hover-background: #171717;
   --hover-foreground: #ffffff;
-  --component-display: #555555;
+  --component-display: #222222;
   --divider: #5a5a5a;
 }
 
@@ -13,8 +15,6 @@
   :root {
     --background: #171717;
     --foreground: #ffffff;
-    --component-display: #222222;
-
   }
 }
 
@@ -47,4 +47,15 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.componentDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 25px;
+    border-radius: 2px;
+    background-color: var(--component-display);
+    width: 100%;
 }

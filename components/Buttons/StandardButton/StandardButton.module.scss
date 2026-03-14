@@ -3,8 +3,8 @@
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: #0a0a0a;
-    background-color: white;
+    color: var(--btn-foreground);
+    background-color: var(--btn-background);
     border: 2px solid transparent;
     transform: background-color 0.2s ease-in-out;
     border: 2px solid white;
@@ -12,6 +12,6 @@
 
     &:hover {
         background-color: transparent;
-        color: white;
+        color: var(--hover-foreground);
     }
 }

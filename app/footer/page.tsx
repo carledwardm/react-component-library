@@ -13,7 +13,9 @@ export default function Footer() {
                     <span className={styles.routeName}> Login</span>
                 </nav>  
             <div className={styles.componentContainer}>
-                <FooterComponent />
+                <div className={styles.componentDisplay}>
+                    <FooterComponent />
+                </div>
                 <p className={styles.descriptionText}>A footer component currently displaying a demo logo, 3 default
                     links and a copyright with a dynamix year added.
                 </p>

@@ -5,7 +5,7 @@
     width: 100%;
     height: 200px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid var(--comp-foreground);
     flex-direction: column;
 }
 
@@ -17,7 +17,7 @@
     max-width: 1400px;
     height: 70%;
     padding: 10 25px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid var(--divider);
 }
 
 .logo {
@@ -41,7 +41,7 @@
     font-size: 16px;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
-    color: white;
+    color: var(--comp-foreground);
     text-decoration: none;
 
     &:hover {
@@ -61,5 +61,5 @@
 .footerCopyright {
     font-family: sans-serif;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--divider);
 }
