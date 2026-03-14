@@ -9,6 +9,16 @@
     padding: 25px;
 }
 
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+    gap: 5px;
+}
+
 .componentContainer {
     display: flex;
     align-items: center;
