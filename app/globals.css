@@ -1,7 +1,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --component-display: #222222;
+  --btn-background: #ffffff;
+  --btn-foreground: #171717;
+  --hover-background: #171717;
+  --hover-foreground: #ffffff;
+  --component-display: #555555;
   --divider: #5a5a5a;
 }
 
@@ -9,6 +13,8 @@
   :root {
     --background: #171717;
     --foreground: #ffffff;
+    --component-display: #222222;
+
   }
 }
 
