@@ -12,7 +12,7 @@ export default function SignUp() {
     }
 
     return (
-        <main className={styles.toastMain}>
+        <main className={styles.main}>
             <div className={styles.componentContainer}>
                 <nav className={styles.breadcrumbs}>
                     <Link href="/" className={styles.homeLink}>Home </ Link>

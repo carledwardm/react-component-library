@@ -10,7 +10,7 @@ export default function Header() {
     const [ count, setCount ] = useState<number>(0);
     
     return (
-        <main className={styles.headerMain}>
+        <main className={styles.main}>
             <nav className={styles.breadcrumbs}>
                     <Link href="/" className={styles.homeLink}>Home </ Link>
                     <FaChevronRight className={styles.breadcrumbsChev} />
