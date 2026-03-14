@@ -28,6 +28,7 @@
 }
 
 .pageTitle {
+    color: var(--foreground);
     font-family: sans-serif;
     font-size: 32px;
     text-align: left;
@@ -68,7 +69,7 @@
 
 
 .descriptionText {
-    color: white;
+    color: var(--foreground);
     font-size: 16px;
     text-align: left;
 }
@@ -83,7 +84,7 @@
     font-size: 18px;
     text-align: left;
     width: 100%;
-    color: white;
+    color: var(--foreground);
     transition: 0.2s ease-in-out;
 
     &:hover {
@@ -98,6 +99,7 @@
 }
 
 .componentTitle {
+    color: var(--foreground);
     font-family: sans-serif;
     font-size: 20px;
     text-align: left;
@@ -106,7 +108,7 @@
 
 .divider {
     width: 100%;
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid var(--divider);
     margin: 25px 0;
 }
 

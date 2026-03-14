@@ -29,7 +29,7 @@
 }
 
 .descriptionText {
-    color: white;
+    color: var(--foreground);
     font-size: 16px;
     text-align: left;
 }
@@ -44,7 +44,7 @@
     font-size: 18px;
     text-align: left;
     width: 100%;
-    color: white;
+    color: var(--foreground);
     transition: 0.2s ease-in-out;
 
     &:hover {
