@@ -1,14 +1,4 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
   display: flex;
   min-height: 100vh;
   align-items: center;
@@ -26,7 +16,7 @@
   align-items: center;
   justify-content: center;
   gap: 25px;
-  background-color: var(--foreground);
+  background-color: var(--background);
   padding: 120px 60px;
 }
 
@@ -127,18 +117,6 @@ a.secondary {
   .logo {
     filter: invert();
   }
-
-  .page {
-    --background: #0a0a0a;
-    --foreground: #0a0a0a;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
-  }
 }
 
 .libraryTextContainer {
@@ -181,7 +159,7 @@ a.secondary {
 }
 
 .componentLink {
-  color: white;
+  color: var(--foreground);
   margin-bottom: 10px;
   transition: color 0.1s ease-in-out;
 }
