@@ -20,5 +20,27 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
     args: {
         primary: true,
+        text: 'Default Text'
     }
 }
+
+export const Small: Story = {
+  args: {
+    size: 'small',
+    label: 'Default Text',
+  },
+};
+
+export const Med: Story = {
+  args: {
+    size: 'med',
+    label: 'Default Text',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    size: 'large',
+    label: 'Default Text',
+  },
+};
