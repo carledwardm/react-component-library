@@ -6,10 +6,10 @@ import StandardButton from '@/components/Buttons/StandardButton';
 import "/app/globals.css";
 
 const meta = {
-    title: 'Standard Button',
+    title: 'StandardButton',
     component: StandardButton,
     parameters: {
-        layout: 'padded',
+        layout: 'centered',
     }
 } satisfies Meta<typeof StandardButton>
 
@@ -20,27 +20,31 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
     args: {
         primary: true,
+        size: "small",
         text: 'Default Text'
     }
 }
 
 export const Small: Story = {
   args: {
+    primary: true,
     size: 'small',
-    label: 'Default Text',
+    text: 'Default Text',
   },
 };
 
 export const Med: Story = {
   args: {
+    primary: true,
     size: 'med',
-    label: 'Default Text',
+    text: 'Default Text',
   },
 };
 
 export const Large: Story = {
   args: {
+    primary: true,
     size: 'large',
-    label: 'Default Text',
+    text: 'Default Text',
   },
 };

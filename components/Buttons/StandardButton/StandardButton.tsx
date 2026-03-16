@@ -8,6 +8,6 @@ type StandardButtonProps = {
 
 export default function StandardButton({  primary=false, size="small", text="Default text"} : StandardButtonProps) {
     return (
-        <button className={styles.button}>{text}</button>
+        <button className={`${styles.button} ${styles[size]}`}>{text}</button>
     )
 }
