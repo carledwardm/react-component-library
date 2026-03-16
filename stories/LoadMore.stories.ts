@@ -2,49 +2,44 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { fn } from 'storybook/test';
 
-import StandardButton from '@/components/Buttons/StandardButton';
+import LoadMore from '@/components/Buttons/LoadMore';
 import "/app/globals.css";
 
 const meta = {
-    title: 'Buttons/StandardButton',
-    component: StandardButton,
+    title: 'Buttons/LoadMore',
+    component: LoadMore,
     parameters: {
         layout: 'centered',
     }
-} satisfies Meta<typeof StandardButton>
+} satisfies Meta<typeof LoadMore>
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-    args: {
-        primary: true,
-        size: "small",
-        text: 'Default Text'
-    }
-}
-
 export const Small: Story = {
   args: {
-    primary: true,
     size: 'small',
-    text: 'Default Text',
+    text: 'Load More',
+    increaseAmount: 0,
+    increaseFunction: fn(),
   },
 };
 
 export const Med: Story = {
   args: {
-    primary: true,
     size: 'med',
-    text: 'Default Text',
+    text: 'Load More',
+    increaseAmount: 0,
+    increaseFunction: fn(),
   },
 };
 
 export const Large: Story = {
   args: {
-    primary: true,
     size: 'large',
     text: 'Default Text',
+    increaseAmount: 0,
+    increaseFunction: fn(),
   },
 };

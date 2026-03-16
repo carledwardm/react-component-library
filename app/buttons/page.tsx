@@ -47,7 +47,9 @@ export default function Header() {
                 <div className={styles.componentContainer}>
                     <h2 className={styles.componentTitle}>Load More Button</h2>
                     <div className={styles.componentDisplay}>
-                        <LoadMore increaseFunction={setCount} increaseAmount={1} />
+                        <LoadMore increaseFunction={setCount} increaseAmount={1} size="small" text="Load More"/>
+                        <LoadMore increaseFunction={setCount} increaseAmount={1} size="med" text="Load More" />
+                        <LoadMore increaseFunction={setCount} increaseAmount={1} size="large" text="Load More"/>
                     </div>
                     <div className={styles.countDemo}>
                             <p className={styles.count}>Click Demo Button: {count}</p>
