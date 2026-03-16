@@ -50,11 +50,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 50px 25px;
     border-radius: 2px;
     background-color: var(--component-display);
     width: 100%;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
 }
 
 
@@ -100,10 +106,6 @@
     width: 100%;
     border: 1px solid var(--divider);
     margin: 25px 0;
-}
-
-.countDemo {
-    margin-top: 50px;
 }
 
 .count {

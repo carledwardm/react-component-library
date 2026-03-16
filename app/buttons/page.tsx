@@ -25,7 +25,9 @@ export default function Header() {
                 <div className={styles.componentContainer}>
                     <h2 className={styles.componentTitle}>Standard Button</h2>
                     <div className={styles.componentDisplay}>
-                        <StandardButton />
+                        <StandardButton size="small" text="Button" primary={true} />
+                        <StandardButton size="med" text="Button" primary={true} />
+                        <StandardButton size="large" text="Button" primary={true} />
                     </div>
                     <p className={styles.descriptionText}>A standard button component. Accepts a text argument
                         at this time.
@@ -46,10 +48,10 @@ export default function Header() {
                     <h2 className={styles.componentTitle}>Load More Button</h2>
                     <div className={styles.componentDisplay}>
                         <LoadMore increaseFunction={setCount} increaseAmount={1} />
-                        <div className={styles.countDemo}>
-                            <p className={styles.count}>Click to increase: {count}</p>
-                        </div>
                     </div>
+                    <div className={styles.countDemo}>
+                            <p className={styles.count}>Click Demo Button: {count}</p>
+                        </div>
                     <p className={styles.descriptionText}>An incremental counter button designed to take a setter function for a numerical
                         count and an increase amount. It will call your supplied function when clicked - this component is meant for 
                         conditional rendering of additional UI items originally hidden from view.
