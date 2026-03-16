@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
 
 import Signup from '@/components/Signup/Signup';
+import "/app/globals.css";
 
 const meta = {
     title: 'Signup',

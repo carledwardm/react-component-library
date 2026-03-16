@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
 
 import Footer from '@/components/Footer/Footer';
+import "/app/globals.css";
 
 const meta = {
     title: 'Footer',

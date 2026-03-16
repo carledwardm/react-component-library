@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
 
 import StandardButton from '@/components/Buttons/StandardButton';
+import "/app/globals.css";
 
 const meta = {
     title: 'Standard Button',

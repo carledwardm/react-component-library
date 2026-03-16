@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
 
 import Toast from '@/components/Toast/Toast';
+import "/app/globals.css";
 
 const meta = {
     title: 'Toast',
