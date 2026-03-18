@@ -8,6 +8,11 @@ A growing list of react components I either frequently made use of or I figured 
 or somebody else. Most components are pretty simple and created so you should be able to customize them 
 yourself after copying the code.
 
+## Is there any restrictions on use?
+
+Nope! This list is just components I've used and found useful, or think may be useful to myself and maybe other 
+developers. I'd love to see what you make if you use anything! 
+
 ## How do I use them?
 
 The approach is pretty simple and straightforward. Check out the vercel link posted at the end of this ReadMe. Browse,
