@@ -52,7 +52,7 @@ export default function Header() {
                         <LoadMore increaseFunction={setCount} increaseAmount={1} size="large" text="Load More"/>
                     </div>
                     <div className={styles.countDemo}>
-                            <p className={styles.count}>Click Demo Button: {count}</p>
+                            <p className={styles.count}>Button Click Counter: {count}</p>
                         </div>
                     <p className={styles.descriptionText}>An incremental counter button designed to take a setter function for a numerical
                         count and an increase amount. It will call your supplied function when clicked - this component is meant for 
