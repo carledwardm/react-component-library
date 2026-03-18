@@ -26,6 +26,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        <footer className="footer">
+          <hr className="divider"/>
+          <p className="footerText">Created by <a>Carl Millard - Frontend Developer </a> {new Date().getFullYear()}</p>
+        </footer>
       </body>
     </html>
   );
