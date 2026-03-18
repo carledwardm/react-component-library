@@ -5,9 +5,9 @@
     font-weight: bold;
     color: var(--btn-foreground);
     background-color: var(--btn-background);
-    border: 2px solid transparent;
     transform: background-color 0.2s ease-in-out;
     border: 2px solid var(--btn-background);
+    border-radius: 2px;
     transition: 0.2s ease-in-out;
     animation: fadeInUp 0.5s forwards;
 
