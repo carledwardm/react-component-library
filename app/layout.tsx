@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <header className="header">
           <a className="homeLink" href="/">Home</a>
-          <hr className="headerDivider" />
+          <hr className="divider" />
         </header>
         {children}
         <footer className="footer">
