@@ -1,3 +1,11 @@
+.pageTitle {
+    color: var(--foreground);
+    font-family: sans-serif;
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+}
+
 .componentContainer {
     display: flex;
     align-items: center;
@@ -7,6 +15,22 @@
     max-width: 1000px;
     padding: 25px;
     gap: 50px;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid var(--divider);
+    margin: 25px 0;
+}
+
+.componentsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    gap: 100px;
 }
 
 .componentDisplay {
@@ -49,3 +73,5 @@
     top: 2px;
     margin-right: 5px;
 }
+
+
