@@ -11,11 +11,6 @@ export default function Header() {
     
     return (
         <main className={styles.main}>
-            <nav className={styles.breadcrumbs}>
-                    <Link href="/" className={styles.homeLink}>Home </ Link>
-                    <FaChevronRight className={styles.breadcrumbsChev} />
-                    <span className={styles.routeName}>Buttons</span>
-            </nav>  
             <section className={styles.componentsSection}>
 
                 <h1 className={styles.pageTitle}>Button Components</h1>

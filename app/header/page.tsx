@@ -7,11 +7,6 @@ import { FaChevronRight } from "react-icons/fa";
 export default function Header() {
     return (
         <main className={styles.main}>
-            <nav className={styles.breadcrumbs}>
-                    <Link href="/" className={styles.homeLink}>Home </ Link>
-                    <FaChevronRight />
-                    <span className={styles.routeName}> Login</span>
-            </nav>  
             <section className={styles.componentsSection}>
                 <h1 className={styles.pageTitle}>Header Components</h1>
                 <hr className={styles.divider} />

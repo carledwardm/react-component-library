@@ -7,11 +7,6 @@ import { FaChevronRight } from "react-icons/fa";
 export default function SignUp() {
     return (
         <main className={styles.main}>
-            <nav className={styles.breadcrumbs}>
-                    <Link href="/" className={styles.homeLink}>Home </ Link>
-                    <FaChevronRight />
-                    <span className={styles.routeName}> Signup</span>
-                </nav>  
             <div className={styles.componentContainer}>
                 <div className={styles.componentDisplay}>
                     <Signup />

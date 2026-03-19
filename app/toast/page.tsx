@@ -13,12 +13,7 @@ export default function SignUp() {
 
     return (
         <main className={styles.main}>
-            <div className={styles.componentContainer}>
-                <nav className={styles.breadcrumbs}>
-                    <Link href="/" className={styles.homeLink}>Home </ Link>
-                    <FaChevronRight />
-                    <span className={styles.routeName}> Toast</span>
-                </nav>       
+            <div className={styles.componentContainer}>    
                 <div className={styles.componentDisplay}>       
                     <Toast message="Your toast message will go here" onClose={closeFunction} />
                 </div>  
