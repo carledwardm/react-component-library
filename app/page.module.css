@@ -86,7 +86,7 @@ a.secondary {
 }
 
 @media (max-width: 600px) {
-  .main {
+  .homeMain {
     padding: 48px 24px;
   }
 

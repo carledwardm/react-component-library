@@ -43,6 +43,17 @@ main {
     padding: 50px 10px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    padding: 50px 10px;
+    min-height: calc(100vh - 200px);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -103,6 +114,7 @@ a {
 }
 
 .footerDivider {
+  margin-top: 0;
   margin-bottom: 25px;
 }
 

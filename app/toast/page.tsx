@@ -12,7 +12,7 @@ export default function SignUp() {
     }
 
     return (
-        <main className={styles.main}>
+        <main className="main">
             <div className={styles.componentContainer}>    
                 <div className={styles.componentDisplay}>       
                     <Toast message="Your toast message will go here" onClose={closeFunction} />

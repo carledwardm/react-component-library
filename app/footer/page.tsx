@@ -6,7 +6,7 @@ import { FaChevronRight } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <main className={styles.main}>
+        <main className="main">
             <section className={styles.componentsSection}>
                 <h1 className={styles.pageTitle}>Footer Components</h1>
                 <hr className={styles.divider} />

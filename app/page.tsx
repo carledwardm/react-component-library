@@ -6,7 +6,7 @@ import { FaChevronRight } from "react-icons/fa";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
+      <main className={styles.homeMain}>
         <div className={styles.libraryTextContainer}>
           <h1 className={styles.libraryTitle}>Component Library for React/Next.js</h1>
           <p className={styles.libraryGreeting}>Hello! Welcome to my componeny library! Feel free to check out the available components and copy any code

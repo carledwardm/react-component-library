@@ -10,7 +10,7 @@ export default function Header() {
     const [ count, setCount ] = useState<number>(0);
     
     return (
-        <main className={styles.main}>
+        <main className="main">
             <section className={styles.componentsSection}>
 
                 <h1 className={styles.pageTitle}>Button Components</h1>
