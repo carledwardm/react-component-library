@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-import styles from "./Breadcrumbs.module.scss";
+import styles from "./BreadCrumbs.module.scss";
 import { FaChevronRight } from "react-icons/fa";
 import Link from "next/link";
 
