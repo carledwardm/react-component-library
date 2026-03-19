@@ -25,9 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <header className="header">
+          <a className="homeLink" href="/">Home</a>
+          <hr className="headerDivider" />
+        </header>
         {children}
         <footer className="footer">
-          <hr className="divider"/>
+          <hr className="footerDivider"/>
           <p className="footerText">Created by • <a href="https://cmillardwebdev.com" className="profileLink">Carl Millard - Web Developer </a>• {new Date().getFullYear()}</p>
         </footer>
       </body>

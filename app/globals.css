@@ -71,6 +71,28 @@ a {
     width: 100%;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+}
+
+.headerDivider, .footerDivider {
+    width: 80%;
+    max-width: 1400px;
+    border: 1px solid var(--divider);
+    margin-top: 25px;
+}
+
+.homeLink {
+  width: 100%;
+  max-width: 1400px;
+  text-align: left;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -80,11 +102,8 @@ a {
   height: 100px;
 }
 
-.divider {
-    width: 80%;
-    max-width: 1400px;
-    border: 1px solid var(--divider);
-    margin-bottom: 25px;
+.footerDivider {
+  margin-bottom: 25px;
 }
 
 .profileLink {
