@@ -8,15 +8,6 @@
     gap: 5px;
 }
 
-.homeLink {
-    font-size: 18px;
-    transition: color 0.1s ease-in-out;
-
-    &:hover {
-        color: rgb(156, 156, 156);
-    }
-}
-
 .pageTitle {
     color: var(--foreground);
     font-family: sans-serif;

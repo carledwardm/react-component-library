@@ -10,9 +10,11 @@ export default function BreadCrumbs() {
 
     return (
         <nav className={styles.breadCrumbs}>
-            <Link href="/" className={styles.homeLink} >Home </Link>
-            {segments.map((segment, i) => (
-                <span key={i} className={styles.routeName}> <FaChevronRight /> <Link href={`/${segment}`}>{segment}</Link></span>
+            <Link href="/" className={styles.homeLink}>Home</Link>{segments.map((segment, i) => (
+                <span key={i} className={styles.routeName}><FaChevronRight className={styles.chev} /> 
+                    <Link href={`/${segment}`} className={styles.routeLink}>
+                        {segment.charAt(0).toUpperCase() + segment.slice(1)}
+                    </Link></span>
             ))}
         </nav>
     )
