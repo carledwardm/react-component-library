@@ -94,7 +94,7 @@ a {
 .headerDivider, .footerDivider {
     width: 80%;
     max-width: 1000px;
-    border: 1px solid var(--divider);
+    border: 1px solid rgb(201, 201, 201);
     margin-top: 25px;
 }
 
