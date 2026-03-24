@@ -98,11 +98,13 @@ a.secondary {
   width: 100%;
   max-width: 1400px;
   gap: 100px;
+  padding: 0 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 609px) {
   .homeMain {
     padding: 48px 24px;
+    flex-direction: column-reverse;
   }
 
   .intro {
