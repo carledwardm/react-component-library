@@ -94,17 +94,17 @@ a.secondary {
 }
 
 .homeMain {
-  flex-direction: row;
   width: 100%;
   max-width: 1400px;
   gap: 100px;
-  padding: 0 25px;
+  padding: 48px 24px;
+  flex-direction: column-reverse;
 }
 
-@media (max-width: 609px) {
+@media (min-width: 610px) {
   .homeMain {
-    padding: 48px 24px;
-    flex-direction: column-reverse;
+    padding: 0 25px;
+    flex-direction: row;
   }
 
   .intro {
@@ -136,7 +136,7 @@ a.secondary {
 
 .libraryTitle {
   font-size: 38px;
-  text-align: center;
+  text-align: left;
 }
 
 .libraryGreeting {
