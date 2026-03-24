@@ -90,7 +90,11 @@ a.secondary {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 200px;
+  width: 100%;
+
+  @media screen and (min-width: 610px) {
+    width: 200px;
+  }
 }
 
 .homeMain {
@@ -156,6 +160,7 @@ a.secondary {
   border: 1.5px solid white;
   border-radius: 5px;
   padding: 25px;
+  width: 100%;
 }
 
 .componentList {
