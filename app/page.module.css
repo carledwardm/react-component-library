@@ -85,6 +85,20 @@ a.secondary {
   }
 }
 
+.leftSideBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+.homeMain {
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+}
+
 @media (max-width: 600px) {
   .homeMain {
     padding: 48px 24px;
@@ -130,11 +144,14 @@ a.secondary {
 
 .componentNav {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
   gap: 25px;
   margin: 50px 0;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  padding: 25px;
 }
 
 .componentList {
