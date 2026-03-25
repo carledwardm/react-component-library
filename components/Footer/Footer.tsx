@@ -17,9 +17,9 @@ export default function Footer() {
                     />
                 </Link>
             <nav className={styles.footerNav} aria-label="Footer nav">
-                <Link href="/" className={styles.footerNavLink}>Home</Link>
-                <Link href="#" className={styles.footerNavLink}>Games</Link>
-                <Link href="#" className={styles.footerNavLink}>Logout</Link>
+                <Link href="/" className={styles.footerNavLink}>Link 1</Link>
+                <Link href="#" className={styles.footerNavLink}>Link 2</Link>
+                <Link href="#" className={styles.footerNavLink}>Link 3</Link>
             </nav>
         </div>
         <div className={styles.footerBottomRow}>
