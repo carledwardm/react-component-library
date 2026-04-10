@@ -1,7 +1,11 @@
 import styles from "./CodeBlock.module.scss";
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-export default function CodeBlock() {
+export default function CodeBlock(codeString: string) {
     return (
-        <h1>CodeBlock Here</h1>
+        <SyntaxHighlighter language="jsx" style={dark}>
+            {codeString}
+        </SyntaxHighlighter>
     )
 }
