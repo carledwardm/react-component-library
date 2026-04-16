@@ -37,7 +37,7 @@ export default function Header() {
                     </ Link>
                 </div>
 
-                <CodeBlock codeString={rawCode} />
+                <CodeBlock urlString={"/components/Buttons/StandardButton/StandardButton"} />
 
                 <hr className={styles.divider} />
 

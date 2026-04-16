@@ -4,7 +4,7 @@ import styles from "./CodeBlock.module.scss";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-export default async function CodeBlock({urlString}: {urlString: string}) {
+export default function CodeBlock({urlString}: {urlString: string}) {
     const [code, setCode] = useState("");
 
     useEffect(() => {
@@ -16,7 +16,7 @@ export default async function CodeBlock({urlString}: {urlString: string}) {
         fetchCode();
     }, [urlString])
     return (
-        <SyntaxHighlighter language="jsx" style={dark} className={styles.highlighter}>
+        <SyntaxHighlighter language="jsx" style={dark} className={styles.highLighter}>
             {code}
         </SyntaxHighlighter>
     )
