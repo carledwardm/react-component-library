@@ -5,6 +5,7 @@ import LoadMore from "@/components/Buttons/LoadMore";
 import StandardButton from "@/components/Buttons/StandardButton";
 import { FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
+import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
 export default function Header() {
     const [ count, setCount ] = useState<number>(0);
@@ -35,6 +36,8 @@ export default function Header() {
                             <FaChevronRight className={styles.repoChev}/> Repo Link
                     </ Link>
                 </div>
+
+                <CodeBlock codeString={rawCode} />
 
                 <hr className={styles.divider} />
 
