@@ -4,3 +4,8 @@
     background-color: var(--component-display); 
     border: 1px solid white;
 }
+
+.copyIcon {
+    cursor: pointer;
+    fill: var(--foreground);
+}
