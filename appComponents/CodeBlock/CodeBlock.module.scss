@@ -1,3 +1,7 @@
+.codeBlockContainer {
+    position: relative;
+}
+
 .highLighter {
     max-width: 100%;
     min-height: 500px;
@@ -8,4 +12,6 @@
 .copyIcon {
     cursor: pointer;
     fill: var(--foreground);
+    position: absolute;
+    bottom: -35px;
 }
