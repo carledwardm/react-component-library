@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "./CodeBlock.module.scss";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function CodeBlock({ filePath }: { filePath: string }) {
   const [code, setCode] = useState("");
@@ -41,7 +41,7 @@ export default function CodeBlock({ filePath }: { filePath: string }) {
 
   return (
     <div className={styles.codeBlockContainer}>
-    <SyntaxHighlighter language="tsx" style={dark} className={styles.highLighter}>
+    <SyntaxHighlighter language="tsx" style={atomDark} className={styles.highLighter}>
       {code || "Loading code..."}
       
     </SyntaxHighlighter>
