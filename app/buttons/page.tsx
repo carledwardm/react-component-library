@@ -27,13 +27,6 @@ export default function Header() {
             A standard button component. Accepts a text argument at this time.
           </p>
 
-          <Link
-            className={styles.repoLink}
-            href="https://github.com/carledwardm/react-component-library/tree/main/components/Buttons/StandardButton"
-            target="_blank"
-          >
-            <FaChevronRight className={styles.repoChev} /> Repo Link
-          </Link>
         </div>
 
 <CodeBlock filePath="components/Buttons/StandardButton/StandardButton.tsx" />
@@ -53,13 +46,6 @@ export default function Header() {
             An incremental counter button designed to take a setter function for a numerical count and an increase amount.
           </p>
 
-          <Link
-            className={styles.repoLink}
-            href="https://github.com/carledwardm/react-component-library/tree/main/components/Buttons/LoadMore"
-            target="_blank"
-          >
-            <FaChevronRight className={styles.repoChev} /> Repo Link
-          </Link>
         </div>
 
         <CodeBlock filePath="components/Buttons/LoadMore/LoadMore.tsx" />
