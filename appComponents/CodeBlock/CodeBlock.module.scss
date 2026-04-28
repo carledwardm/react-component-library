@@ -34,9 +34,11 @@
 
 .highLighter {
     max-width: 100%;
-    min-height: 500px;
+    height: 500px;
     background-color: var(--component-display); 
     border: 1px solid white;
+    border-radius: 2px;
+
 }
 
 .copyIcon {
