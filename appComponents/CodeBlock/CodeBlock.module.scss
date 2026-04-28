@@ -3,6 +3,35 @@
     width: 100%;
 }
 
+.buttonGroup {
+  display: flex;
+  background: #101823;
+  border-bottom: 1px solid #2c2f38;
+}
+
+.fileButton {
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  color: #c9d1d9;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.fileButton + .fileButton {
+  border-left: 1px solid #2c2f38;
+}
+
+.fileButton:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.active {
+  background: #0b1220;
+  color: #58a6ff;
+}
+
 .highLighter {
     max-width: 100%;
     min-height: 500px;

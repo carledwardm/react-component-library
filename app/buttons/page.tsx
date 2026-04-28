@@ -7,6 +7,36 @@ import { FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
+const standardButtonFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Buttons/StandardButton/StandardButton.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Buttons/StandardButton/StandardButton.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Buttons/StandardButton/index.tsx",
+  },
+];
+
+const loadMoreFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Buttons/LoadMore/LoadMore.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Buttons/LoadMore/LoadMore.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Buttons/LoadMore/index.tsx",
+  },
+];
+
 export default function Header() {
   const [count, setCount] = useState<number>(0);
 
@@ -29,7 +59,7 @@ export default function Header() {
 
         </div>
 
-<CodeBlock filePath="components/Buttons/StandardButton/StandardButton.tsx" />
+<CodeBlock files={standardButtonFiles} />
         <hr className={styles.divider} />
 
         <div className={styles.componentContainer}>
@@ -48,7 +78,7 @@ export default function Header() {
 
         </div>
 
-        <CodeBlock filePath="components/Buttons/LoadMore/LoadMore.tsx" />
+        <CodeBlock files={loadMoreFiles} />
       </section>
     </main>
   );
