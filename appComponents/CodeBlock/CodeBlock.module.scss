@@ -45,5 +45,11 @@
     cursor: pointer;
     fill: var(--foreground);
     position: absolute;
-    bottom: -35px;
+    bottom: -40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.8;
+        scale: (1.1);
+    }
 }
