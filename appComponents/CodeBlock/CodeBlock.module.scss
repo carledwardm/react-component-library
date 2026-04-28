@@ -5,8 +5,8 @@
 
 .buttonGroup {
   display: flex;
-  background: #101823;
-  border-bottom: 1px solid #2c2f38;
+  background: var(--component-display);
+  margin-bottom: 10px;
 }
 
 .fileButton {
@@ -28,7 +28,7 @@
 }
 
 .active {
-  background: #0b1220;
+  background: rgba(255, 255, 255, 0.04);
   color: #58a6ff;
 }
 
