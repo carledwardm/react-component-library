@@ -4,6 +4,21 @@ import styles from "./Header.module.scss";
 import HeaderComponent from "@/components/Header/Header";
 import { FaChevronRight } from "react-icons/fa";
 
+const headerFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Header/Header.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Header/Header.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Header/index.tsx",
+  },
+];
+
 export default function Header() {
     return (
         <main className="main">
