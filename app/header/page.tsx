@@ -1,8 +1,6 @@
 "use client";
-import Link from "next/link";
 import styles from "./Header.module.scss";
 import HeaderComponent from "@/components/Header/Header";
-import { FaChevronRight } from "react-icons/fa";
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";   
 
 const headerFiles = [
@@ -34,13 +32,6 @@ export default function Header() {
                         holds 4 links in its nav container. This component will be updated in the near future to have
                         mobile toggle button.
                     </p>
-                
-                    <Link 
-                        className={styles.repoLink} 
-                        href="https://github.com/carledwardm/react-component-library/tree/main/components/Header"
-                        target="_blank">
-                            <FaChevronRight className={styles.repoChev}/> Repo Link
-                    </ Link>
                 </div>
                 <CodeBlock files={headerFiles} />
             </section>
