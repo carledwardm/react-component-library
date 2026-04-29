@@ -1,9 +1,7 @@
 "use client";
-import Link from "next/link";
 import styles from "./Buttons.module.scss";
 import LoadMore from "@/components/Buttons/LoadMore";
 import StandardButton from "@/components/Buttons/StandardButton";
-import { FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
