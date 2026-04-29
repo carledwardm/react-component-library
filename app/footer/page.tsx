@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./Footer.module.scss";
 import FooterComponent from "@/components/Footer/Footer";
 import { FaChevronRight } from "react-icons/fa";
+import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
 const footerFiles = [
   {
@@ -39,6 +40,7 @@ export default function Footer() {
                             <FaChevronRight className={styles.repoChev}/> Repo Link
                     </Link>
                 </div>
+                <CodeBlock files={footerFiles} />
             </section>
         </main>
     )
