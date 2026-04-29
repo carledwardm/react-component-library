@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./Header.module.scss";
 import HeaderComponent from "@/components/Header/Header";
 import { FaChevronRight } from "react-icons/fa";
+import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";   
 
 const headerFiles = [
   {
@@ -41,6 +42,7 @@ export default function Header() {
                             <FaChevronRight className={styles.repoChev}/> Repo Link
                     </ Link>
                 </div>
+                <CodeBlock files={headerFiles} />
             </section>
         </main>
     )
