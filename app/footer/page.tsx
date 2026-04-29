@@ -4,6 +4,21 @@ import styles from "./Footer.module.scss";
 import FooterComponent from "@/components/Footer/Footer";
 import { FaChevronRight } from "react-icons/fa";
 
+const footerFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Footer/Footer.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Footer/Footer.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Footer/index.tsx",
+  },
+];
+
 export default function Footer() {
     return (
         <main className="main">
