@@ -32,8 +32,8 @@ export default function Header() {
                         holds 4 links in its nav container. This component will be updated in the near future to have
                         mobile toggle button.
                     </p>
+                    <CodeBlock files={headerFiles} />
                 </div>
-                <CodeBlock files={headerFiles} />
             </section>
         </main>
     )

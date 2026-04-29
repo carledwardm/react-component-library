@@ -54,10 +54,9 @@ export default function Header() {
           <p className={styles.descriptionText}>
             A standard button component. Accepts a text argument at this time.
           </p>
-
+        <CodeBlock files={standardButtonFiles} />
         </div>
 
-<CodeBlock files={standardButtonFiles} />
         <hr className={styles.divider} />
 
         <div className={styles.componentContainer}>
@@ -73,10 +72,8 @@ export default function Header() {
           <p className={styles.descriptionText}>
             An incremental counter button designed to take a setter function for a numerical count and an increase amount.
           </p>
-
+          <CodeBlock files={loadMoreFiles} />
         </div>
-
-        <CodeBlock files={loadMoreFiles} />
       </section>
     </main>
   );

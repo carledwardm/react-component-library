@@ -31,8 +31,9 @@ export default function Footer() {
                     <p className={styles.descriptionText}>A footer component currently displaying a demo logo, 3 default
                         links and a copyright with a dynamix year added.
                     </p>
+                    <CodeBlock files={footerFiles} />
                 </div>
-                <CodeBlock files={footerFiles} />
+                
             </section>
         </main>
     )
