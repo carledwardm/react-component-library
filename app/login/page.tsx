@@ -4,6 +4,21 @@ import styles from "./Login.module.scss";
 import Login from "@/components/Login/Login";
 import { FaChevronRight } from "react-icons/fa";
 
+const loginFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Login/Login.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Login/Login.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Login/index.tsx",
+  },
+];
+
 export default function LogIn() {
     return (
         <main className="main">
