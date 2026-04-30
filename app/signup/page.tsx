@@ -4,6 +4,21 @@ import Signup from "@/components/Signup/Signup";
 import Link from 'next/link';
 import { FaChevronRight } from "react-icons/fa";
 
+const signupFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Signup/Signup.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Signup/Signup.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Signup/index.tsx",
+  },
+];
+
 export default function SignUp() {
     return (
         <main className="main">
