@@ -1,4 +1,5 @@
 "use client";
+import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 import styles from "./Signup.module.scss";
 import Signup from "@/components/Signup/Signup";
 import Link from 'next/link';
@@ -40,6 +41,7 @@ export default function SignUp() {
                         target="_blank">
                             <FaChevronRight className={styles.repoChev}/> Repo Link
                     </ Link>
+                    <CodeBlock files={signupFiles} />
                 </div>
             </section>
         </main>
