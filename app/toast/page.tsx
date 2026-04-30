@@ -1,8 +1,7 @@
 "use client";
+import CodeBlock from "@/appComponents/CodeBlock";
 import styles from "./Toast.module.scss";
 import ToastComponent from "@/components/Toast/Toast";
-import Link from 'next/link';
-import { FaChevronRight } from "react-icons/fa";
 
 const toastFiles = [
   {
@@ -39,12 +38,7 @@ export default function Toast() {
                         a closing function. The fixed position parameter has been commented out for this demo, uncomment and
                         adjust to your liking.
                     </p>
-                    <Link 
-                        className={styles.repoLink} 
-                        href="https://github.com/carledwardm/react-component-library/tree/main/components/Toast"
-                        target="_blank">
-                            <FaChevronRight className={styles.repoChev}/> Repo Link
-                    </ Link>
+                    <CodeBlock files={toastFiles} />
                 </div>
             </section>
         </main>
