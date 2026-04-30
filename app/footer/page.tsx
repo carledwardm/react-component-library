@@ -32,8 +32,7 @@ export default function Footer() {
                         links and a copyright with a dynamix year added.
                     </p>
                     <CodeBlock files={footerFiles} />
-                </div>
-                
+                </div>  
             </section>
         </main>
     )

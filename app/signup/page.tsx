@@ -2,8 +2,6 @@
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 import styles from "./Signup.module.scss";
 import Signup from "@/components/Signup/Signup";
-import Link from 'next/link';
-import { FaChevronRight } from "react-icons/fa";
 
 const signupFiles = [
   {
@@ -35,12 +33,6 @@ export default function SignUp() {
                         logic accordingly via the linked function. Form inputs are also controlled and the component has been 
                         styled to have a slight glow around text/inputs, feel free to remove.
                     </p>
-                    <Link 
-                        className={styles.repoLink} 
-                        href="https://github.com/carledwardm/react-component-library/tree/main/components/Signup"
-                        target="_blank">
-                            <FaChevronRight className={styles.repoChev}/> Repo Link
-                    </ Link>
                     <CodeBlock files={signupFiles} />
                 </div>
             </section>

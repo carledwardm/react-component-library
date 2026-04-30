@@ -1,8 +1,6 @@
 "use client";
-import Link from "next/link";
 import styles from "./Login.module.scss";
 import Login from "@/components/Login/Login";
-import { FaChevronRight } from "react-icons/fa";
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
 const loginFiles = [
