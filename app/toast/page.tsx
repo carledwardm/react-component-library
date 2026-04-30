@@ -1,11 +1,11 @@
 "use client";
 import styles from "./Toast.module.scss";
-import Toast from "@/components/Toast/Toast";
+import ToastComponent from "@/components/Toast/Toast";
 import Link from 'next/link';
 import { FaChevronRight } from "react-icons/fa";
 
 
-export default function SignUp() {
+export default function Toast() {
 
     const closeFunction = () => {
         return;
@@ -18,7 +18,7 @@ export default function SignUp() {
                 <hr className={styles.divider} />
                 <div className={styles.componentContainer}>    
                     <div className={styles.componentDisplay}>       
-                        <Toast message="Your toast message will go here" onClose={closeFunction} />
+                        <ToastComponent message="Your toast message will go here" onClose={closeFunction} />
                     </div>  
                     <p className={styles.descriptionText}>A component that's used to display feedback messages to your user. Accepts a message, duration and 
                         a closing function. The fixed position parameter has been commented out for this demo, uncomment and
