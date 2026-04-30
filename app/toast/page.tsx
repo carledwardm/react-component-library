@@ -4,6 +4,21 @@ import ToastComponent from "@/components/Toast/Toast";
 import Link from 'next/link';
 import { FaChevronRight } from "react-icons/fa";
 
+const toastFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Toast/Toast.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Toast/Toast.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Toast/index.tsx",
+  },
+];
+
 
 export default function Toast() {
 
