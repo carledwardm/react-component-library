@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./Login.module.scss";
 import Login from "@/components/Login/Login";
 import { FaChevronRight } from "react-icons/fa";
+import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
 const loginFiles = [
   {
@@ -34,12 +35,7 @@ export default function LogIn() {
                         logic accordingly via the linked function. Form inputs are also controlled and the component has been 
                         styled to have a slight glow around text/inputs, feel free to remove.
                     </p>
-                    <Link 
-                        className={styles.repoLink} 
-                        href="https://github.com/carledwardm/react-component-library/tree/main/components/Login"
-                        target="_blank">
-                            <FaChevronRight className={styles.repoChev}/> Repo Link
-                    </ Link>
+                    <CodeBlock files={loginFiles} />
                 </div>
             </section>
         </main>
