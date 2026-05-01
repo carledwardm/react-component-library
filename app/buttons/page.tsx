@@ -2,6 +2,7 @@
 import styles from "./Buttons.module.scss";
 import LoadMore from "@/components/Buttons/LoadMore";
 import StandardButton from "@/components/Buttons/StandardButton";
+import ButtonGroup from "@/components/Buttons/ButtonGroup";
 import { useState } from "react";
 import CodeBlock from "@/appComponents/CodeBlock/CodeBlock";
 
@@ -32,6 +33,21 @@ const loadMoreFiles = [
   {
     name: "Index.tsx",
     filePath: "components/Buttons/LoadMore/index.tsx",
+  },
+];
+
+const buttonGroupFiles = [
+  {
+    name: "Component.tsx",
+    filePath: "components/Buttons/ButtonGroup/ButtonGroup.tsx",
+  },
+  {
+    name: "Module.css",
+    filePath: "components/Buttons/ButtonGroup/ButtonGroup.module.scss",
+  },
+  {
+    name: "Index.tsx",
+    filePath: "components/Buttons/ButtonGroup/index.tsx",
   },
 ];
 
@@ -73,6 +89,19 @@ export default function Header() {
             An incremental counter button designed to take a setter function for a numerical count and an increase amount.
           </p>
           <CodeBlock files={loadMoreFiles} />
+        </div>
+
+        <hr className={styles.divider} />
+
+        <div className={styles.componentContainer}>
+          <h2 className={styles.componentTitle}>Button Group</h2>
+          <div className={styles.componentDisplay}>
+            <ButtonGroup />
+          </div>
+          <p className={styles.descriptionText}>
+            A button group component for navigation or pagination. Displays 3 buttons in a row with equal widths.
+          </p>
+          <CodeBlock files={buttonGroupFiles} />
         </div>
       </section>
     </main>

@@ -12,6 +12,7 @@ export default function Home() {
           <h2 className={styles.componentListTitle}>Available Components</h2>
           <ul className={styles.componentList}>
             <li className={styles.componentLink}><Link href="/buttons"><FaChevronRight className={styles.componentChev}/> Buttons</ Link></li>
+            <li className={styles.componentLink}><Link href="/carousel"><FaChevronRight className={styles.componentChev}/> Carousel</ Link></li>
             <li className={styles.componentLink}><Link href="/footer"><FaChevronRight className={styles.componentChev}/> Footer </ Link></li>
             <li className={styles.componentLink}><Link href="/header"><FaChevronRight className={styles.componentChev}/> Header </ Link></li>
             <li className={styles.componentLink}><Link href="/login"><FaChevronRight className={styles.componentChev}/> Log In</ Link></li>
