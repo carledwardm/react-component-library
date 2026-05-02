@@ -10,10 +10,10 @@ interface CarouselProps {
 const Carousel: React.FC<CarouselProps> = ({
   images = [
     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop',
-    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop&q=60&blend=https://images.unsplash.com/photo-1473093295203-cad00df16e50?w=600&h=400&fit=crop&blend_mode=multiply',
+    'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600&h=400&fit=crop',
     'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=600&h=400&fit=crop',
     'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600&h=400&fit=crop',
-    'https://images.unsplash.com/photo-1495567720989-cebdbe50d3c5?w=600&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=600&h=400&fit=crop',
   ],
   autoAdvanceInterval = 7000,
 }) => {
