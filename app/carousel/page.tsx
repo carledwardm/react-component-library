@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import styles from '../Buttons/Buttons.module.scss';
+import styles from '../carousel/Carousel.module.scss';
 import Carousel from '@/components/Carousel';
 import CodeBlock from '@/appComponents/CodeBlock/CodeBlock';
 
