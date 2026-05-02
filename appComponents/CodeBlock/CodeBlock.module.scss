@@ -11,13 +11,17 @@
 }
 
 .fileButton {
-  padding: 0.75rem;
+  padding: 0.75rem 0.50rem;
   background: transparent;
   border: none;
   color: #c9d1d9;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.80rem;
   transition: background 0.2s ease;
+  @media (min-width: 480px) {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
 }
 
 .fileButton + .fileButton {
