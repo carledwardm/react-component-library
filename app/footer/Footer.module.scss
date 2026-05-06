@@ -1,3 +1,11 @@
+.pageTitleContainer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .pageTitle {
     color: var(--foreground);
     font-family: sans-serif;
