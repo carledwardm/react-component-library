@@ -57,8 +57,10 @@ export default function Header() {
   return (
     <main className="main">
       <section className={styles.componentsSection}>
-        <h1 className={styles.pageTitle}>Button Components</h1>
-        <hr className={styles.divider} />
+        <div className={styles.pageTitleContainer}>
+          <h1 className={styles.pageTitle}>Button Components</h1>
+          <hr className={styles.divider} />
+        </div>
 
         <div className={styles.componentContainer}>
           <h2 className={styles.componentTitle}>Standard Button</h2>
