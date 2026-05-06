@@ -30,9 +30,10 @@ export default function CarouselPage() {
   return (
     <main className="main">
       <section className={styles.componentsSection}>
-        <h1 className={styles.pageTitle}>Image Carousel Component</h1>
-        <hr className={styles.divider} />
-
+        <div className={styles.pageTitleContainer}>
+          <h1 className={styles.pageTitle}>Image Carousel Component</h1>
+          <hr className={styles.divider} />
+        </div>
         <div className={styles.componentContainer}>
           <h2 className={styles.componentTitle}>Default Carousel (5 Images)</h2>
           <div className={styles.componentDisplay}>
