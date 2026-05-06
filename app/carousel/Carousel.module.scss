@@ -1,0 +1,106 @@
+.pageTitleContainer {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pageTitle {
+    color: var(--foreground);
+    font-family: sans-serif;
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+}
+
+.componentsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    gap: 100px;
+}
+
+.componentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    gap: 50px;
+}
+
+
+.componentDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px 25px;
+    border-radius: 2px;
+    background-color: var(--component-display);
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+
+.descriptionText {
+    color: var(--foreground);
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.routeName {
+    font-size: 18px;
+    color: var(--foreground);
+}
+
+.repoLink {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    color: var(--foreground);
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: rgb(156, 156, 156);
+    }
+}
+
+.repoChev {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.componentTitle {
+    color: var(--foreground);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid var(--divider);
+    margin: 25px 0;
+}
+
+.count {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
