@@ -26,12 +26,6 @@ export default function Home() {
           <p className={styles.libraryGreeting}>Hello! Welcome to my componeny library! Feel free to check out the available components and copy any code
             you'd like to use from them via the repo links on each page. Check back in the future for updates!
           </p>
-          <Link 
-            className={styles.repoLink} 
-            href="https://github.com/carledwardm/react-component-library/tree/main"
-            target="_blank">
-              <FaChevronRight className={styles.repoChev}/> Full Repo Link
-          </ Link>
         </div>
       </main>
     </div>
