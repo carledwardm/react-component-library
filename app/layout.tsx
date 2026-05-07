@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import BreadCrumbs from "@/appComponents/BreadCrumbs/BreadCrumbs";
+import Link from "next/link";
+import { FaChevronRight } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,8 +34,16 @@ export default function RootLayout({
         </header>
         {children}
         <footer className="footer">
-          <hr className="footerDivider"/>
-          <p className="footerText">Created by • <a href="https://cmillardwebdev.com" className="profileLink">Carl Millard - Web Developer </a>• {new Date().getFullYear()}</p>
+            <hr className="footerDivider"/>
+            <div className="footerContentContainer">
+              <p className="footerText">Created by • <a href="https://cmillardwebdev.com" className="profileLink">Carl Millard - Web Developer </a>• {new Date().getFullYear()}</p>
+              <Link 
+                className="repoLink" 
+                href="https://github.com/carledwardm/react-component-library/tree/main"
+                target="_blank">
+                <FaChevronRight className="repoChev"/> Full Repo Link
+              </ Link>
+            </div>
         </footer>
       </body>
     </html>
