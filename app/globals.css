@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171717;
+  --foreground: #ffffff;
   --btn-background: #ffffff;
   --btn-foreground: #171717;
   --comp-background: #171717;
@@ -9,13 +9,6 @@
   --hover-foreground: #a7a7a7;
   --component-display: #222222;
   --divider: #5a5a5a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #171717;
-    --foreground: #ffffff;
-  }
 }
 
 html,
