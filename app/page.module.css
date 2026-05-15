@@ -160,7 +160,7 @@ a.secondary {
   border: 1.5px solid white;
   border-radius: 5px;
   padding: 25px;
-  width: 100%;
+  width: 175px;
 }
 
 .componentList {
@@ -183,3 +183,9 @@ a.secondary {
   color: rgb(156, 156, 156);
   text-decoration: none;
 }
+
+.componentListTitle {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
