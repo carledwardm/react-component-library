@@ -39,22 +39,12 @@ export default function CarouselPage() {
             <Carousel />
           </div>
           <p className={styles.descriptionText}>
-            An image carousel component with automatic advancement every 7 seconds. Supports up to 5 images, includes drag/swipe functionality and navigation buttons.
+            An image carousel component with automatic advancement every 7 seconds. Supports up to 5 images, 
+            includes drag/swipe functionality and navigation buttons. 
           </p>
           <CodeBlock files={carouselFiles} />
         </div>
 
-        <hr className={styles.divider} />
-
-        <div className={styles.componentContainer}>
-          <h2 className={styles.componentTitle}>Custom Images Carousel</h2>
-          <div className={styles.componentDisplay}>
-            <Carousel images={customImages} autoAdvanceInterval={5000} />
-          </div>
-          <p className={styles.descriptionText}>
-            Same carousel with custom images and a faster auto-advance interval of 5 seconds.
-          </p>
-        </div>
       </section>
     </main>
   );
